@@ -45,13 +45,6 @@ h1 {
 
 }
 
-/* Main Content */
-main {
-    background-color: lightblue;
-    /* Make Main Elemement take up any surplus space to push the footer down */
-    flex: 1 0 auto;
-}
-
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -91,6 +84,14 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+}
+
+/* Main Content */
+main {
+    background-color: lightblue;
+    /* Make Main Elemement take up any surplus space to push the footer down */
+    flex: 1 0 auto;
+    margin-top: 46px;
 }
 
 /* Footer */
