@@ -30,7 +30,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-
 }
 
 header a {
@@ -42,14 +41,12 @@ header a {
 h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
-
 }
 
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
-
 }
 
 #menu > li {
@@ -70,7 +67,6 @@ nav {
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
-
 }
 
 /* Nav Toggle */
@@ -135,4 +131,10 @@ footer {
         margin-top: 79px;
     }
 
+}
+/* Large devices (Laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
+    }
 }
